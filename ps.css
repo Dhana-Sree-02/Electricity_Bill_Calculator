@@ -18,6 +18,7 @@ body {
   justify-content: center;
   align-items: center;
   width: 200rem;
+  margin:50px;
 }
 
 .card {
