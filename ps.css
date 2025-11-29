@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #e0e0e0, #f9f9f9);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200rem;
+}
+
+.card {
+  background-color: #7483cdb5;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  max-width: 800px;
+  text-align: center;
+  box-shadow: -30px 10px 30px rgb(0, 0, 0);
+
+}
+
+.card h1, .card h3 , .card h4{
+  margin-bottom: 20px;
+  color: white;
+  font-style: italic;
+}
+.card h3{
+  text-align: left;
+}
+table{
+  width:80%;
+    margin:20px ;
+    margin-left:40px;
+    background-color:rgb(191, 221, 248);
+    border-radius:10px;
+
+}
+.card p {
+  margin-bottom: 20px;
+  color: white;
+  font-size: larger;
+}
+
+.card input,
+.card select {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 2px solid orange;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.card button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  background: linear-gradient(to right, #97c6ed, #996af1);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.card button:hover {
+  background: linear-gradient(to right, #3554a1, #0f1c3f);
+}
+
+
+#result {
+  margin-top: 15px;
+  font-weight: bold;
+  font-size: 18px;
+  color: white;
+  
+}
